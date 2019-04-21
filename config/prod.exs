@@ -13,7 +13,7 @@ config :phoenix_heroku_starter_kit, PhoenixHerokuStarterKitWeb.Endpoint,
   http: [:inet6, port: System.get_env("PORT") || 4000],
   url: [host: "phoenix-heroku-starter-kit.herokuapp.com", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
-  secret_key_base:System.get_env("SECRET_KEY_BASE")
+  secret_key_base: System.get_env("SECRET_KEY_BASE")
 
 config:phoenix_heroku_starter_kit, PhoenixHerokuStarterKit.Repo,
   adapter: Ecto.Adapters.Postgres,
