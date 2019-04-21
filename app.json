@@ -4,6 +4,7 @@
   "repository": "https://github.com/manfordbenjamin/phoenix-heroku-starter-kit.git",
   "logo": "https://raw.githubusercontent.com/manfordbenjamin/phoenix-heroku-starter-kit/master/icon.png",
   "keywords": ["elixir", "phoenix", "heroku"],
+  "addons": ["heroku-postgresql:hobby-dev"],
   "env": {
     "SECRET_KEY_BASE": "+fgIw201/srrsfOcgUe+iBS24kfnVb/qIwYRHcuXjaHNUIIc0vvJYzUpcci50hM9"
   },
